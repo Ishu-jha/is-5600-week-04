@@ -8,6 +8,7 @@ module.exports = {
   get
 }
 
+//products
 async function list(options = {}) {
   const { offset = 0, limit = 25, tag } = options
   const data = await fs.readFile(productsFile)

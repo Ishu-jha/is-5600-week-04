@@ -12,7 +12,7 @@ function cors(req, res, next) {
 
   next()
 }
-
+//middleware
 function handleError(err, req, res, next) {
   console.error(err)
 
